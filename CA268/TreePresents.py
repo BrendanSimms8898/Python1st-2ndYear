@@ -63,3 +63,5 @@ class BST:
             return True
         else:
             return self.recursive_is_present(ptr.left, e) or self.recursive_is_present(ptr.right, e)
+
+# Added is_present() and recursive_is_present methods to take a parameter and returns a boolean value which indicates whether the item is present or not.
