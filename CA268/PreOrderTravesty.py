@@ -64,3 +64,5 @@ class BST:
 			preorder.append(str(ptr.item))
 			self.rec_pre_order(ptr.left, preorder)
 			self.rec_pre_order(ptr.right, preorder)
+
+#Added a method called pre_order() which prints out the elements of a tree using preorder. That is, it would be a preorder traversal of the tree.
