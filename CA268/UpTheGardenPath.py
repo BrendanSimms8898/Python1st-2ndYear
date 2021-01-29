@@ -30,3 +30,10 @@ class BST:
                 parent.right = Node(item, None, None)
             lst.reverse()
             return lst
+
+#Added the add() method so that it returns a list of the items in the path from the node which was just added to the root. For example, if a 1 was added to the following binary search tree:
+#               8
+#       5                 10
+#  3       6          9
+#then it would end up in the leftmost position and the path to the root would be 3, 5, 8 so it should return the list [3, 5, 8]
+
