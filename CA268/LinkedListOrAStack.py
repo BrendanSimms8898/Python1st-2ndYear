@@ -13,3 +13,5 @@ class LinkedStack:
 
     def is_empty(self):
         return self.ll.is_empty()
+
+    # A stack created using a LinkedList
