@@ -38,3 +38,5 @@ class BST:
                 
     def count(self):
         return self.recursive_count(self.root)
+    
+    #created BST class and added methods recursive_count() and count() to count the elements in the tree
