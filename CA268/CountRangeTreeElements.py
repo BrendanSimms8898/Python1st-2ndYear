@@ -40,3 +40,6 @@ class BST:
                 
     def count(self, hi, lo):
         return self.recursive_count(self.root, hi, lo)
+
+    #added method recursive_count() and count() to count the elements in a binary search tree which are in a range from lo to hi inclusive.
+    #This is added to the base BST class created in the count elements of a binary search tree program
