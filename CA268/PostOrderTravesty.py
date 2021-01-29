@@ -75,3 +75,5 @@ class BST:
 			self.rec_post_order(ptr.left, postorder)
 			self.rec_post_order(ptr.right, postorder)
 			postorder.append(str(ptr.item))
+
+#Added method called post_order() which prints out the elements of a tree using postorder. That is, it would be a postorder traversal of the tree.
