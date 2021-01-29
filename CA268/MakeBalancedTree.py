@@ -14,3 +14,6 @@ def make_list(lst):
 			else:
 				endnt.pop(0)
 	return end
+
+#a function which takes a list as an argument and rearranges the list 
+#(or produces a new list with the same elements) so that when each item is added to the list, the tree will be perfectly balanced.
