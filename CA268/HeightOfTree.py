@@ -43,3 +43,5 @@ class BST:
             return 0
         else:
             return max(self.recursive_height(ptr.right), self.recursive_height(ptr.left)) + 1
+
+   #Added height() and recursive_height() methods to get the height of a binary search tree
