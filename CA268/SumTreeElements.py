@@ -52,3 +52,4 @@ class BST:
             return 0
         else:
             return self.recursive_total(ptr.right) + self.recursive_total(ptr.left) + ptr.item
+#Added total() and recursive_total() methods to return the sum of all the elements of a binary search tree.
