@@ -53,19 +53,6 @@ class LinkedList:
             return LinkedList.ispresent(self, ptr.next, e)
         return False
 
-    def largest(self):
-        return self.largerest(self.head)
-
-    def largerest(self, ptr):
-        if ptr != None:
-            temp = LinkedList.largerest(self, ptr.next)
-            if ptr.next == None:
-                return ptr.item
-            elif ptr.item > temp:
-                return ptr.item
-            elif ptr.item < temp:
-                return temp
-
     def duplicates(self):
         return self.dupes(self.head)
 
@@ -76,3 +63,5 @@ class LinkedList:
             return True
         else:
             return self.dupes(ptr.next)
+        
+  #Added duplicates() method which returns true if two consecutive elements of the linked list are equal
