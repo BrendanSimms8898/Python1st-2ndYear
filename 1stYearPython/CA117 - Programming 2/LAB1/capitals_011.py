@@ -10,3 +10,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+	
+#Code to Capatilize the first letter in stdin and reprint with capitalization in effect
