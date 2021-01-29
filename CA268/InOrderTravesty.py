@@ -52,3 +52,5 @@ class BST:
 			self.rec_in_order(ptr.left, inorder)
 			inorder.append(str(ptr.item))
 			self.rec_in_order(ptr.right, inorder)
+
+#Added in_order() and rec_in_order() methods to print out the elements of a tree in order. That is, it would be an in_order traversal of the tree.
