@@ -9,7 +9,8 @@ def detect_loop(lst):
                 return True
     return False
 
-# a function called detect_loop() which has a LinkedList parameter and which returns True or False depending on whether any of the next pointers point to the head.
+# A function called detect_loop() which has a LinkedList parameter and which returns True or False depending on whether any of the next pointers point to the head.
+# This prevents an infinite loop with pointers
 
 #Potential Test Code:
 import sys
