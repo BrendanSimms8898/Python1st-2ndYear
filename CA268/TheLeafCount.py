@@ -69,3 +69,5 @@ class BST:
             return 1
         else:
             return self.recursive_count_leaves(ptr.right) + self.recursive_count_leaves(ptr.left)
+
+#added a count_leaves() and recursivee_count_leaves() method to produce a count of the number of leaves of the tree.
