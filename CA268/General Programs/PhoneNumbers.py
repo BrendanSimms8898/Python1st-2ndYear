@@ -16,3 +16,8 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+#A program to manage phone numbers. A user enters commands a line at a time. There are three commands:
+#1. !! (two exclamation marks) exits the program
+#2. name number associates a number to a name. Note that the name cannot have spaces and if a second number is added to a name, it overwrites the first.
+#3. name ? gives the number for that name

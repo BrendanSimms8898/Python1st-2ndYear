@@ -73,7 +73,3 @@ class LinkedList:
             ptr.next = Node(item, None)
         else:
             self.add(item)
-#Added a rotate() method to the LinkedList class which rotates the list so that the first element of the list becomes the last and all the other elements move one place up.
-    def rotate(self):
-        first=self.remove()
-        self.append(first)

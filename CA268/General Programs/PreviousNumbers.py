@@ -20,3 +20,5 @@ def main():
 	print()
 if __name__ == '__main__':
 	main()
+
+#A program which reads numbers until a -1 is encountered and only print out numbers which have previously occurred in the input.

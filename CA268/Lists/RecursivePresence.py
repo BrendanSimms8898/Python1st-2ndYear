@@ -52,3 +52,5 @@ class LinkedList:
                 return True
             return LinkedList.ispresent(self, ptr.next, e)
         return False
+
+    #Added a method  is_present() & ispresent() which returns true if its argument is in a linked list.

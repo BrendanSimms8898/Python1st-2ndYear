@@ -42,3 +42,5 @@ class LinkedList:
         if ptr != None:
             return LinkedList.recursivecount_even(self, ptr.next) + 1
         return count
+
+# Added a recursive method which counts the number of even elements in a list to the end of a version of the LinkedList class

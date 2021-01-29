@@ -29,3 +29,5 @@ class LinkedList:
         if ptr != None:
             return LinkedList.recursivecount(self, ptr.next) + 1
         return count
+
+    #Added recursivecount method to LinkedList Classes to count the number of elements within the list

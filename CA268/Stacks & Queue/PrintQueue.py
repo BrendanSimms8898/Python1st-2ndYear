@@ -7,3 +7,5 @@ def print_queue(lst, front, back):
 	else:
 		for item in lst[front:back]:
 			print(item)
+
+#A Function which will take some queue parameters and return a list of the elements of the queue

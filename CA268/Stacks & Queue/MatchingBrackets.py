@@ -34,3 +34,5 @@ def check_brackets(line):
 	if openb.is_empty() and closeb.is_empty():
 		return True
 	return False
+
+#check_brackets function which takes a string parameter and returns a boolean value which indicates whether the brackets in the string match
